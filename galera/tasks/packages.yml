@@ -8,5 +8,6 @@
     cache_valid_time: 11400
   with_items:
     - python-mysqldb
-    - galera-3
-    - mysql-wsrep-5.6
+    - MariaDB-client
+    - MariaDB-Galera-server
+    - galera
