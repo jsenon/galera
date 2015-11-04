@@ -3,9 +3,9 @@
   sudo: yes
   vars:
     - galera_cluster_name: cluster_one
-    - galera_cluster_members: [fr0-vsiaas-6000, fr0-vsiaas-6001]
+    - galera_cluster_members: [host1, host2]
   roles:
     - galera
   environment:
-    http_proxy: http://fr0-vmtest-8002:3131
+    http_proxy: http://
 
