@@ -1,2 +1,10 @@
 ---
 # handlers file for galera
+  - name: restart mysql
+    service: name=mysql state=restarted
+
+  - name: start mysql
+    service: name=mysql state=started
+
+  - name: stop mysql
+    service: name=mysql state=stopped
