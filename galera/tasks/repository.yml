@@ -1,0 +1,8 @@
+---
+# Setup installation repositories
+- name: install the MariaDB yum repo
+  template:
+    src: ../../templates/galera.j2
+    dest: /etc/yum.repos.d/galera.repo
+    owner: root
+    group: root

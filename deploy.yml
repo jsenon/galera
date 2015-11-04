@@ -1,0 +1,9 @@
+---
+- hosts: dbnew
+  sudo: yes
+  #vars:
+  roles:
+    - galera
+  environment:
+    http_proxy: http://fr0-vmtest-8002:3131
+
