@@ -3,7 +3,7 @@
   sudo: yes
   vars:
     - galera_cluster_name: cluster_one
-    - galera_cluster_members: [host1, host2]
+    - galera_cluster_members: [ server1, server2, server3 ]
   roles:
     - galera
   environment:
