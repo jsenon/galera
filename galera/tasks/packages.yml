@@ -6,7 +6,7 @@
     state: present
     update_cache: yes
   with_items:
-    - python-mysqldb
-    - MariaDB-client
-    - MariaDB-Galera-server
-    - galera
+    - MySQL-python.x86_64
+    - MariaDB-client.x86_64
+    - MariaDB-Galera-server.x86_64
+    - galera.x86_64

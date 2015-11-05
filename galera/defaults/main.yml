@@ -3,7 +3,7 @@
 #
 galera_root_password: test
 galera_maintenance_password: test
-galera_cluster_user: replicator
+galera_cluster_user: root
 galera_cluster_password: test
 galera_cluster_name: mycluster
 galera_cluster_members: [127.0.0.1]

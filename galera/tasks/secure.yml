@@ -3,13 +3,13 @@
 
   - name: remove test database
     mysql_db:
-    name: test
-    state: absent
+      name: test
+      state: absent
 
   - name: deny remote root access
     mysql_user:
-    name: root
-    host: "{{ item }}"
+      name: root
+      host: "{{ item }}"
     with_items:
       - "localhost"
       - "127.0.0.1"
@@ -17,5 +17,5 @@
 
   - name: deny anonymous access
     mysql_user:
-    name: ""
-    state: absent
+      name: ""
+      state: absent
