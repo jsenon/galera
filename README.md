@@ -24,7 +24,7 @@ Edit *galera/default/main.yml* whith your own values
 Dependencies
 ------------
 
-N/A
+RedHat EL 6
 
 License
 -------
