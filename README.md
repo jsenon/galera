@@ -1,7 +1,5 @@
-Role Name
+Galera Role
 =========
-
-Galera Role.  
 
 Install Galera, Configure and Secure.
 
