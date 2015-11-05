@@ -2,6 +2,7 @@
 # handlers file for galera
   - name: restart mysql
     service: name=mysql state=restarted
+    when: inventory_hostname != galera_cluster_members[0]
 
   - name: start mysql
     service: name=mysql state=started

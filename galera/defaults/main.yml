@@ -6,7 +6,7 @@ galera_maintenance_password: test
 galera_cluster_user: root
 galera_cluster_password: test
 galera_cluster_name: mycluster
-galera_cluster_members: [127.0.0.1]
+galera_cluster_members: [ 10.125.89.158, 10.125.89.159, 10.125.89.160 ]
 galera_bootstrap: no
 galera_bind_address: 127.0.0.1
 galera_setup_repository: yes
